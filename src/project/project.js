@@ -1,16 +1,6 @@
 import "./project.css";
-import project1 from "../images/project/project1.jpg";
-import project2 from "../images/project/project2.jpg";
-import project3 from "../images/project/project3.jpg";
-import project4 from "../images/project/project4.jpg";
-import project5 from "../images/project/project5.jpg";
-import project6 from "../images/project/project6.jpg";
-import project7 from "../images/project/project7.jpg";
-import project8 from "../images/project/project8.jpg";
-import { Link } from "react-router-dom";
-import { IoIosArrowForward } from "react-icons/io";
 import { ProjectCard } from "./projectCard";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import projects from "./projects.json";
 
 export function Project() {
