@@ -1,18 +1,10 @@
 import "./project.css";
 import { ProjectCard } from "./projectCard";
-import { useState } from "react";
 import projects from "./projects.json";
 
 export function Project() {
-  const [data, setData] = useState('');
-  const [currentPage, setcurrentPage] = useState(1);
-  const [postPerPage, setpostPerPage] = useState(8);
 
   const  projectsData = projects;
-
- const lastPostIndex = currentPage * postPerPage;
-  const firstPostIndex = lastPostIndex - postPerPage;
-  const currentPosts = data.slice(firstPostIndex, lastPostIndex);
 
   const handleChange = (e) => {
     const pClassList = e.target.parentElement;

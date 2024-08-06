@@ -1,9 +1,6 @@
 import "./blog.css";
 import latestNews from "../images/articles/blogLatest.jpg";
 import article1 from "../images/articles/article1.jpg";
-import article2 from "../images/articles/article2.jpg";
-import article3 from "../images/articles/article3.jpg";
-import article4 from "../images/articles/article4.jpg";
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 
